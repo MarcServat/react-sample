@@ -355,7 +355,6 @@ var UsersList = function (_Component) {
   }, {
     key: 'renderUsers',
     value: function renderUsers() {
-      console.log(this.props);
       return this.props.users.map(function (user) {
         return _react2.default.createElement(
           'li',
@@ -384,7 +383,8 @@ var UsersList = function (_Component) {
 }(_react.Component);
 
 function mapStateToProps(state) {
-  return { users: state.user };
+  console.log(state);
+  return { users: state.users };
 }
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps, { fetchUsers: _actions.fetchUsers })(UsersList);

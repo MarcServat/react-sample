@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {fetchUsers} from "../actions";
+import {fetchUsers} from '../actions';
 
 class UsersList extends Component {
   componentDidMount() {
@@ -8,7 +8,6 @@ class UsersList extends Component {
   }
 
   renderUsers() {
-    console.log(this.props)
     return this.props.users.map(user => {
       return <li key={user.id}>{user.name}</li>;
     });
@@ -26,7 +25,8 @@ class UsersList extends Component {
 
 
 function  mapStateToProps(state) {
-  return { users: state.user }
+  console.log(state)
+  return { users: state.users }
 }
 
 export default connect(mapStateToProps, {fetchUsers})(UsersList);
