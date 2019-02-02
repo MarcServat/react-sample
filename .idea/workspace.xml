@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438dd0d1-0bbd-4e53-921a-b43f87292faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../server/src/client/components/hocs/requireAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/client/pages/AdminsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/client/reducers/adminsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/public/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/public/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/client/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/client/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/client/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/client/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/client/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/client/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/src/helpers/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/helpers/renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../server/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -77,10 +71,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../server/src/client/reducers/authReducer.js">
+        <entry file="file://$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="378">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,14 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../server/src/helpers/renderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -170,7 +164,6 @@
         <option value="$PROJECT_DIR$/../server/src/client/reducers/authReducer.js" />
         <option value="$PROJECT_DIR$/../server/src/client/pages/HomePage.js" />
         <option value="$PROJECT_DIR$/../server/src/client/components/Header.js" />
-        <option value="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" />
         <option value="$PROJECT_DIR$/../server/src/client/pages/NotFoundPage.js" />
         <option value="$PROJECT_DIR$/../server/src/client/reducers/index.js" />
         <option value="$PROJECT_DIR$/../server/src/client/actions/index.js" />
@@ -178,8 +171,9 @@
         <option value="$PROJECT_DIR$/../server/src/client/Routes.js" />
         <option value="$PROJECT_DIR$/../server/src/client/pages/AdminsPage.js" />
         <option value="$PROJECT_DIR$/../server/src/client/components/hocs/requireAuth.js" />
-        <option value="$PROJECT_DIR$/../server/src/helpers/renderer.js" />
         <option value="$PROJECT_DIR$/../server/src/index.js" />
+        <option value="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" />
+        <option value="$PROJECT_DIR$/../server/src/helpers/renderer.js" />
       </list>
     </option>
   </component>
@@ -347,12 +341,12 @@
       <workItem from="1546864331926" duration="1848000" />
       <workItem from="1548870555865" duration="6058000" />
       <workItem from="1549031334695" duration="3135000" />
-      <workItem from="1549106698060" duration="9128000" />
+      <workItem from="1549106698060" duration="9959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22404000" />
+    <option name="totallyTimeSpent" value="23235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -461,27 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../server/src/client/pages/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../server/src/client/reducers/usersReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -546,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../server/src/helpers/renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../server/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -563,6 +530,30 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/src/client/reducers/usersReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/src/helpers/renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
