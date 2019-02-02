@@ -16,7 +16,7 @@ export default (req, store, context) => {
     return`
         <html lang="en">
             <head>
-                <title>My title</title>
+                <title>SSR</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
             </head>
             <body>

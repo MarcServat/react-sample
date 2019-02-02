@@ -22,14 +22,23 @@ app.get('*', (req, res) => {
 
     const promises = matchRoutes(Routes, req.path).map(({ route }) => {
         return route.loadData ? route.loadData(store) : null;
+    }).map(promise => {
+        if(promise) { return new Promise((resolve) =>{
+            return promise.then(resolve).catch(resolve)
+        })}
     });
 
-    Promise.all(promises).then(() => {
-        const context = {};
-        const content = renderer(req, store, context);
-        if (context.notFound) res.status(404);
-        res.send(content);
-    });
+    Promise.all(promises)
+        .then(() => {
+            const context = {};
+            const content = renderer(req, store, context);
+            console.log(context)
+            if (context.url) {
+                return res.redirect(301, context.url);
+            }
+            if (context.notFound) res.status(404);
+            res.send(content);
+        });
 });
 
 app.listen(3000, () => {
