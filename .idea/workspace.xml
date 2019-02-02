@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../server/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/public/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/public/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/helpers/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/helpers/renderer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="280">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -94,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../server/src/helpers/renderer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -172,8 +171,8 @@
         <option value="$PROJECT_DIR$/../server/src/client/pages/AdminsPage.js" />
         <option value="$PROJECT_DIR$/../server/src/client/components/hocs/requireAuth.js" />
         <option value="$PROJECT_DIR$/../server/src/index.js" />
-        <option value="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" />
         <option value="$PROJECT_DIR$/../server/src/helpers/renderer.js" />
+        <option value="$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js" />
       </list>
     </option>
   </component>
@@ -341,16 +340,15 @@
       <workItem from="1546864331926" duration="1848000" />
       <workItem from="1548870555865" duration="6058000" />
       <workItem from="1549031334695" duration="3135000" />
-      <workItem from="1549106698060" duration="9959000" />
+      <workItem from="1549106698060" duration="10904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23235000" />
+    <option name="totallyTimeSpent" value="24180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -540,20 +538,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../server/src/helpers/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/src/client/pages/UsersListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

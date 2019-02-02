@@ -441,21 +441,26 @@ var UsersListPage = function (_Component) {
       });
     }
   }, {
+    key: 'head',
+    value: function head() {
+      return _react2.default.createElement(
+        _reactHelmet.Helmet,
+        null,
+        _react2.default.createElement(
+          'title',
+          null,
+          this.props.users.length + ' Users loaded'
+        ),
+        _react2.default.createElement('meta', { property: 'og:title', content: 'User App' })
+      );
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          _reactHelmet.Helmet,
-          null,
-          _react2.default.createElement(
-            'title',
-            null,
-            'User App'
-          ),
-          _react2.default.createElement('meta', { property: 'og:title', content: 'User App' })
-        ),
+        this.head(),
         'Here are the users',
         _react2.default.createElement(
           'ul',

@@ -14,13 +14,19 @@ class UsersListPage extends Component {
     });
   }
 
+  head() {
+    return (
+        <Helmet>
+          <title>{`${this.props.users.length} Users loaded`}</title>
+          <meta property="og:title" content="User App"/>
+        </Helmet>
+        )
+  }
+
   render() {
     return (
         <div>
-          <Helmet>
-            <title>User App</title>
-            <meta property="og:title" content="User App"/>
-          </Helmet>
+          {this.head()}
           Here are the users
           <ul>{this.renderUsers()}</ul>
         </div>
